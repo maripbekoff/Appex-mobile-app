@@ -15,6 +15,13 @@ class ThirdCard extends StatelessWidget {
         height: 200,
         margin: const EdgeInsets.fromLTRB(10, 20, 10, 20),
         decoration: BoxDecoration(
+          boxShadow: [
+            BoxShadow(
+              blurRadius: 5,
+              color: Colors.black,
+              offset: Offset(0, 3),
+            ),
+          ],
           image: DecorationImage(
             image: AssetImage('images/backgroundCards/backgroundThirdCard.png'),
             fit: BoxFit.cover,

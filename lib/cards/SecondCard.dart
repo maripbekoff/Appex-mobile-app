@@ -13,6 +13,13 @@ class SecondCard extends StatelessWidget {
       },
       child: Container(
         decoration: BoxDecoration(
+          boxShadow: [
+            BoxShadow(
+              blurRadius: 5,
+              color: Colors.black,
+              offset: Offset(0, 3),
+            ),
+          ],
           image: DecorationImage(
             image:
                 AssetImage('images/backgroundCards/backgroundSecondCard.png'),

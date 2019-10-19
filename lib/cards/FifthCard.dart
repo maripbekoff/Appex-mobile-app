@@ -14,8 +14,15 @@ class FifthCard extends StatelessWidget {
       child: Container(
         height: 200,
         width: 1000,
-        margin: const EdgeInsets.fromLTRB(10, 20, 10, 40),
+        margin: const EdgeInsets.fromLTRB(10, 20, 10, 20),
         decoration: BoxDecoration(
+          boxShadow: [
+            BoxShadow(
+              blurRadius: 5,
+              color: Colors.black,
+              offset: Offset(0, 3),
+            )
+          ],
           image: DecorationImage(
             image: AssetImage('images/backgroundCards/backgroundFifthCard.png'),
             fit: BoxFit.cover,

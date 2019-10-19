@@ -14,6 +14,13 @@ class FirstCard extends StatelessWidget {
       child: Container(
         margin: const EdgeInsets.fromLTRB(10, 40, 10, 20),
         decoration: BoxDecoration(
+          boxShadow: [
+            BoxShadow(
+              blurRadius: 5,
+              color: Colors.black,
+              offset: Offset(0, 3),
+            ),
+          ],
           image: DecorationImage(
             image: AssetImage('images/backgroundCards/backgroundFirstCard.png'),
             fit: BoxFit.cover,

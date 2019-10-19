@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:Appex/cards/description/FourthCardDesc.dart';
+import 'package:Appex/cards/description/SixthCardDesc.dart';
 
-class FourthCard extends StatelessWidget {
+class SixthCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FlatButton(
       onPressed: () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => FourthCardDesc()),
+          MaterialPageRoute(builder: (context) => SixthCardDesc()),
         );
       },
       child: Container(
         height: 200,
-        margin: const EdgeInsets.fromLTRB(10, 20, 10, 20),
+        margin: const EdgeInsets.fromLTRB(10, 20, 10, 40),
         decoration: BoxDecoration(
           boxShadow: [
             BoxShadow(
@@ -23,23 +23,22 @@ class FourthCard extends StatelessWidget {
             ),
           ],
           image: DecorationImage(
-            image:
-                AssetImage('images/backgroundCards/backgroundFourthCard.png'),
+            image: AssetImage('images/backgroundCards/backgroundSixthCard.png'),
             fit: BoxFit.cover,
           ),
           borderRadius: BorderRadius.circular(36),
         ),
         child: Center(
           child: Text(
-            'Neptune',
+            'Kuiper Belt',
             style: TextStyle(
               fontFamily: 'Montserrat',
               fontSize: 25,
-              color: Colors.blue[300],
+              color: Colors.indigo[50],
               shadows: [
                 Shadow(
                   blurRadius: 10.0,
-                  color: Colors.blue[900],
+                  color: Colors.indigo[50],
                   offset: Offset(0, 0),
                 )
               ],
