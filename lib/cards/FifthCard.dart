@@ -1,0 +1,44 @@
+import 'package:flutter/material.dart';
+import 'package:Appex/cards/description/FifthCardDesc.dart';
+
+class FifthCard extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return FlatButton(
+      onPressed: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => FifthCardDesc()),
+        );
+      },
+      child: Container(
+        height: 200,
+        width: 1000,
+        margin: const EdgeInsets.fromLTRB(10, 20, 10, 40),
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('images/backgroundCards/backgroundFifthCard.png'),
+            fit: BoxFit.cover,
+          ),
+          borderRadius: BorderRadius.circular(36),
+        ),
+        child: Center(
+          child: Text(
+            'Moon',
+            style: TextStyle(
+              fontFamily: 'Montserrat',
+              fontSize: 25,
+              shadows: [
+                Shadow(
+                  blurRadius: 10,
+                  color: Colors.grey[300],
+                  offset: Offset(0, 0),
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
