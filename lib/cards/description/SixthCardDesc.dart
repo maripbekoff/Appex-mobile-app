@@ -35,6 +35,11 @@ class SixthCardDesc extends StatelessWidget {
                 child: Column(
                   children: <Widget>[
                     Container(
+                      padding: const EdgeInsets.all(20),
+                      decoration: BoxDecoration(
+                        color: Colors.white10,
+                        borderRadius: BorderRadius.circular(5),
+                      ),
                       child: Column(
                         children: <Widget>[
                           Text(
@@ -42,7 +47,7 @@ class SixthCardDesc extends StatelessWidget {
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                               fontSize: 25,
-                              color: Colors.grey[400],
+                              color: Colors.grey[100],
                             ),
                           ),
                           Text(
@@ -51,7 +56,7 @@ class SixthCardDesc extends StatelessWidget {
                               fontSize: 13,
                               fontFamily: 'Montserrat',
                               decoration: TextDecoration.none,
-                              color: Color(0xFFDADADA),
+                              color: Colors.grey[300],
                               height: 1.5,
                             ),
                           ),
@@ -60,6 +65,11 @@ class SixthCardDesc extends StatelessWidget {
                     ),
                     Container(
                       margin: const EdgeInsets.only(top: 50),
+                      padding: const EdgeInsets.all(20),
+                      decoration: BoxDecoration(
+                        color: Colors.white10,
+                        borderRadius: BorderRadius.circular(5),
+                      ),
                       child: Column(
                         children: <Widget>[
                           Text(
@@ -67,7 +77,7 @@ class SixthCardDesc extends StatelessWidget {
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                               fontSize: 25,
-                              color: Colors.grey[400],
+                              color: Colors.grey[100],
                             ),
                           ),
                           Text(
@@ -75,7 +85,7 @@ class SixthCardDesc extends StatelessWidget {
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                               fontSize: 13,
-                              color: Color(0xFFDADADA),
+                              color: Colors.grey[300],
                               height: 1.5,
                             ),
                           ),
@@ -84,6 +94,11 @@ class SixthCardDesc extends StatelessWidget {
                     ),
                     Container(
                       margin: const EdgeInsets.only(top: 50),
+                      padding: const EdgeInsets.all(20),
+                      decoration: BoxDecoration(
+                        color: Colors.white10,
+                        borderRadius: BorderRadius.circular(5),
+                      ),
                       child: Column(
                         children: <Widget>[
                           Text(
@@ -91,15 +106,15 @@ class SixthCardDesc extends StatelessWidget {
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                               fontSize: 25,
-                              color: Colors.grey[400],
+                              color: Colors.grey[100],
                             ),
                           ),
                           Text(
-                            '...',
+                            'Here is water in the form of ice, however there very cold and dark. Food will be received through hydroponics.',
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                               fontSize: 13,
-                              color: Color(0xFFDADADA),
+                              color: Colors.grey[300],
                               height: 1.5,
                             ),
                           ),

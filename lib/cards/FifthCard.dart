@@ -12,8 +12,7 @@ class FifthCard extends StatelessWidget {
         );
       },
       child: Container(
-        height: 200,
-        width: 1000,
+        height: 208,
         margin: const EdgeInsets.fromLTRB(10, 20, 10, 20),
         decoration: BoxDecoration(
           boxShadow: [
@@ -21,26 +20,28 @@ class FifthCard extends StatelessWidget {
               blurRadius: 5,
               color: Colors.black,
               offset: Offset(0, 3),
-            )
+            ),
           ],
           image: DecorationImage(
-            image: AssetImage('images/backgroundCards/backgroundFifthCard.png'),
+            image:
+                AssetImage('images/backgroundCards/backgroundFourthCard.png'),
             fit: BoxFit.cover,
           ),
           borderRadius: BorderRadius.circular(36),
         ),
         child: Center(
           child: Text(
-            'Moon',
+            'Neptune',
             style: TextStyle(
               fontFamily: 'Montserrat',
               fontSize: 25,
+              color: Colors.blue[300],
               shadows: [
                 Shadow(
-                  blurRadius: 10,
-                  color: Colors.grey[300],
+                  blurRadius: 10.0,
+                  color: Colors.blue[900],
                   offset: Offset(0, 0),
-                ),
+                )
               ],
             ),
           ),

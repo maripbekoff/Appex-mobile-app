@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'Destination.dart';
-import 'Companies.dart';
+import 'Title.dart';
 
 import 'cards/FirstCard.dart';
 import 'cards/SecondCard.dart';
@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView(
       children: [
-        Companies(),
+        TitleAppex(),
         FirstCard(),
         SecondCard(),
         Destination(),

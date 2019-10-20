@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import './home.dart';
-import './favorite.dart';
+import './reserved.dart';
 import './settings.dart';
 
 void main() => runApp(MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatefulWidget {
 class MyAppState extends State<MyApp> {
   int _selectedPage = 1;
   final _pageOptions = [
-    FavoritePage(),
+    ReservedPage(),
     HomePage(),
     SettingsPage(),
   ];
@@ -54,8 +54,9 @@ class MyAppState extends State<MyApp> {
           iconSize: 30,
           items: [
             BottomNavigationBarItem(
-              icon: Icon(Icons.camera),
-              title: Text('Favorite'),
+              activeIcon: Icon(Icons.favorite),
+              icon: Icon(Icons.favorite_border),
+              title: Text('Reserved'),
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.blur_circular),

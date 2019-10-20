@@ -27,7 +27,7 @@ class FirstCard extends StatelessWidget {
           ),
           borderRadius: BorderRadius.circular(36),
         ),
-        height: 200,
+        height: 208,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [

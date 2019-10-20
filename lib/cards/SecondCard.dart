@@ -28,7 +28,7 @@ class SecondCard extends StatelessWidget {
           color: Colors.orange[300],
           borderRadius: BorderRadius.circular(36),
         ),
-        height: 200,
+        height: 208,
         margin: const EdgeInsets.fromLTRB(10, 20, 10, 20),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,

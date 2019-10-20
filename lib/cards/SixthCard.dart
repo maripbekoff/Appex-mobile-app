@@ -12,7 +12,7 @@ class SixthCard extends StatelessWidget {
         );
       },
       child: Container(
-        height: 200,
+        height: 208,
         margin: const EdgeInsets.fromLTRB(10, 20, 10, 40),
         decoration: BoxDecoration(
           boxShadow: [

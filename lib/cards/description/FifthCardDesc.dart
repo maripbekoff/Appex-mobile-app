@@ -24,7 +24,7 @@ class FifthCardDesc extends StatelessWidget {
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     image: AssetImage(
-                      'images/planets/moon.png',
+                      'images/planets/neptune.png',
                     ),
                     fit: BoxFit.contain,
                   ),
@@ -35,6 +35,11 @@ class FifthCardDesc extends StatelessWidget {
                 child: Column(
                   children: <Widget>[
                     Container(
+                      padding: const EdgeInsets.all(20),
+                      decoration: BoxDecoration(
+                        color: Colors.white10,
+                        borderRadius: BorderRadius.circular(5),
+                      ),
                       child: Column(
                         children: <Widget>[
                           Text(
@@ -42,16 +47,16 @@ class FifthCardDesc extends StatelessWidget {
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                               fontSize: 25,
-                              color: Colors.grey[400],
+                              color: Colors.grey[100],
                             ),
                           ),
                           Text(
-                            'Moons radius is 1,079 miles (1,737).\nThe Moon is an average of 238,855 miles (384,400 kilometers) away.',
+                            'Neptunes radius is 15,299 miles (24,622 kilometers), Neptune is about four times wider than Earth.\nFrom an average distance of 2.8 billion miles (4.5 billion kilometers), Neptune is 30 astronomical units away from the Sun.',
                             style: TextStyle(
                               fontSize: 13,
                               fontFamily: 'Montserrat',
                               decoration: TextDecoration.none,
-                              color: Color(0xFFDADADA),
+                              color: Colors.grey[300],
                               height: 1.5,
                             ),
                           ),
@@ -60,6 +65,11 @@ class FifthCardDesc extends StatelessWidget {
                     ),
                     Container(
                       margin: const EdgeInsets.only(top: 50),
+                      padding: const EdgeInsets.all(20),
+                      decoration: BoxDecoration(
+                        color: Colors.white10,
+                        borderRadius: BorderRadius.circular(5),
+                      ),
                       child: Column(
                         children: <Widget>[
                           Text(
@@ -67,15 +77,15 @@ class FifthCardDesc extends StatelessWidget {
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                               fontSize: 25,
-                              color: Colors.grey[400],
+                              color: Colors.grey[100],
                             ),
                           ),
                           Text(
-                            'The Moon makes a complete orbit around Earth in 27 Earth days rotates or spins at that same rate.\nThe moon appears to orbit us every 29 days.',
+                            'One day on Neptune takes about 16 hours. And Neptune makes a complete orbit around the Sun in about 165 Earth years (60,190 Earth days).',
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                               fontSize: 13,
-                              color: Color(0xFFDADADA),
+                              color: Colors.grey[300],
                               height: 1.5,
                             ),
                           ),
@@ -84,6 +94,40 @@ class FifthCardDesc extends StatelessWidget {
                     ),
                     Container(
                       margin: const EdgeInsets.only(top: 50),
+                      padding: const EdgeInsets.all(20),
+                      decoration: BoxDecoration(
+                        color: Colors.white10,
+                        borderRadius: BorderRadius.circular(5),
+                      ),
+                      child: Column(
+                        children: <Widget>[
+                          Text(
+                            'Structure\n',
+                            style: TextStyle(
+                              fontFamily: 'Montserrat',
+                              fontSize: 25,
+                              color: Colors.grey[100],
+                            ),
+                          ),
+                          Text(
+                            'Neptune is one of two ice giants in the outer solar system. Most of the planets mass is made up of a hot dense fluid of icy materials—water, methane and ammonia—above a small, rocky core. Of the giant planets, Neptune is the densest.\n\nScientists think there might be an ocean of super hot water under Neptunes cold clouds. It does not boil away because incredibly high pressure keeps it locked inside.',
+                            style: TextStyle(
+                              fontFamily: 'Montserrat',
+                              fontSize: 13,
+                              color: Colors.grey[300],
+                              height: 1.5,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: const EdgeInsets.only(top: 50),
+                      padding: const EdgeInsets.all(20),
+                      decoration: BoxDecoration(
+                        color: Colors.white10,
+                        borderRadius: BorderRadius.circular(5),
+                      ),
                       child: Column(
                         children: <Widget>[
                           Text(
@@ -91,15 +135,15 @@ class FifthCardDesc extends StatelessWidget {
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                               fontSize: 25,
-                              color: Colors.grey[400],
+                              color: Colors.grey[100],
                             ),
                           ),
                           Text(
-                            'The Moon could be the site of future colonization by humans. The discovery the Moon harbors water ice, and that the highest concentrations occur within darkened craters at the poles, makes the Moon a little more hospitable for future human colonists.\n\nBut the big problem is moon dust, which changes peoples DNA and overheats various techniques',
+                            'There is water on Mars today. Water on Mars is found in the form of water-ice just under the surface in the polar regions as well as in briny.\nFood will be received through hydroponics.\nEnergy will be generated using solar panels.',
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                               fontSize: 13,
-                              color: Color(0xFFDADADA),
+                              color: Colors.grey[300],
                               height: 1.5,
                             ),
                           ),
@@ -151,17 +195,17 @@ class FifthCardDesc extends StatelessWidget {
                                   offset: Offset(0, 0),
                                 ),
                               ],
-                              color: Colors.amber[900],
                               borderRadius: BorderRadius.circular(360),
                             ),
                             child: FlatButton(
                               onPressed: () {},
+                              color: Colors.amber[900],
                               shape: new RoundedRectangleBorder(
                                   borderRadius:
                                       new BorderRadius.circular(30.0)),
                               child: Icon(
-                                Icons.map,
-                                size: 19,
+                                Icons.arrow_forward_ios,
+                                size: 21,
                               ),
                             ),
                           ),

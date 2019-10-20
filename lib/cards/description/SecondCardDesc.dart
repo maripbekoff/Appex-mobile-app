@@ -34,6 +34,11 @@ class SecondCardDesc extends StatelessWidget {
                 child: Column(
                   children: <Widget>[
                     Container(
+                      padding: const EdgeInsets.all(20),
+                      decoration: BoxDecoration(
+                        color: Colors.white10,
+                        borderRadius: BorderRadius.circular(5),
+                      ),
                       child: Column(
                         children: <Widget>[
                           Text(
@@ -41,7 +46,7 @@ class SecondCardDesc extends StatelessWidget {
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                               fontSize: 25,
-                              color: Colors.grey[500],
+                              color: Colors.grey[100],
                             ),
                           ),
                           Text(
@@ -49,7 +54,8 @@ class SecondCardDesc extends StatelessWidget {
                             style: TextStyle(
                               fontSize: 13,
                               fontFamily: 'Montserrat',
-                              color: Color(0xFFDADADA),
+                              color: Colors.grey[300],
+                              height: 1.5,
                             ),
                           ),
                         ],
@@ -57,6 +63,11 @@ class SecondCardDesc extends StatelessWidget {
                     ),
                     Container(
                       margin: const EdgeInsets.only(top: 50),
+                      padding: const EdgeInsets.all(20),
+                      decoration: BoxDecoration(
+                        color: Colors.white10,
+                        borderRadius: BorderRadius.circular(5),
+                      ),
                       child: Column(
                         children: <Widget>[
                           Text(
@@ -64,7 +75,7 @@ class SecondCardDesc extends StatelessWidget {
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                               fontSize: 25,
-                              color: Colors.grey[500],
+                              color: Colors.grey[100],
                             ),
                           ),
                           Text(
@@ -72,7 +83,7 @@ class SecondCardDesc extends StatelessWidget {
                             style: TextStyle(
                               fontSize: 13,
                               fontFamily: 'Montserrat',
-                              color: Color(0xFFDADADA),
+                              color: Colors.grey[300],
                               height: 1.5,
                               letterSpacing: 1.2,
                             ),

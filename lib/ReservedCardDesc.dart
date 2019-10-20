@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class FourthCardDesc extends StatelessWidget {
+class ReservedCardDesc extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -116,68 +116,6 @@ class FourthCardDesc extends StatelessWidget {
                               fontSize: 13,
                               color: Colors.grey[300],
                               height: 1.5,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    Container(
-                      margin: const EdgeInsets.fromLTRB(0, 80, 0, 20),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceAround,
-                        children: <Widget>[
-                          Container(
-                            width: 250,
-                            height: 50,
-                            decoration: BoxDecoration(
-                              boxShadow: [
-                                BoxShadow(
-                                  blurRadius: 30,
-                                  color: Colors.amber[900],
-                                  offset: Offset(0, 0),
-                                ),
-                              ],
-                              borderRadius: BorderRadius.circular(360),
-                            ),
-                            child: FlatButton(
-                              color: Colors.amber[900],
-                              onPressed: () {},
-                              shape: new RoundedRectangleBorder(
-                                  borderRadius:
-                                      new BorderRadius.circular(30.0)),
-                              child: Text(
-                                'RESERVE',
-                                style: TextStyle(
-                                  fontSize: 17,
-                                  fontFamily: 'Montserrat',
-                                  color: Color(0xFFF0F0F0),
-                                ),
-                              ),
-                            ),
-                          ),
-                          Container(
-                            width: 50,
-                            height: 50,
-                            decoration: BoxDecoration(
-                              boxShadow: [
-                                BoxShadow(
-                                  blurRadius: 30,
-                                  color: Colors.amber[900],
-                                  offset: Offset(0, 0),
-                                ),
-                              ],
-                              color: Colors.amber[900],
-                              borderRadius: BorderRadius.circular(360),
-                            ),
-                            child: FlatButton(
-                              onPressed: () {},
-                              shape: new RoundedRectangleBorder(
-                                  borderRadius:
-                                      new BorderRadius.circular(30.0)),
-                              child: Icon(
-                                Icons.map,
-                                size: 19,
-                              ),
                             ),
                           ),
                         ],

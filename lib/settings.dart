@@ -151,8 +151,8 @@ class SettingsPage extends StatelessWidget {
                             fontFamily: 'Montserrat',
                           ),
                         ),
-                        onTap: () =>
-                            launch('https://commonwealth-codeunion.github.io'),
+                        onTap: () => launch(
+                            'https://commonwealth-codeunion.github.io/appex'),
                       ),
                     ),
                   ],

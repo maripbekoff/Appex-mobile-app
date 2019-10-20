@@ -24,7 +24,7 @@ class ThirdCardDesc extends StatelessWidget {
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     image: AssetImage(
-                      'images/planets/mars.png',
+                      'images/planets/moon.png',
                     ),
                     fit: BoxFit.contain,
                   ),
@@ -35,6 +35,11 @@ class ThirdCardDesc extends StatelessWidget {
                 child: Column(
                   children: <Widget>[
                     Container(
+                      padding: const EdgeInsets.all(20),
+                      decoration: BoxDecoration(
+                        color: Colors.white10,
+                        borderRadius: BorderRadius.circular(5),
+                      ),
                       child: Column(
                         children: <Widget>[
                           Text(
@@ -42,16 +47,16 @@ class ThirdCardDesc extends StatelessWidget {
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                               fontSize: 25,
-                              color: Colors.grey[400],
+                              color: Colors.grey[100],
                             ),
                           ),
                           Text(
-                            'Mars is about half the size of Earth, radius of Mars is 2,106 miles (3,390 kilometers).\nFrom an average distance of 142 million miles (228 million kilometers), Mars is 1.5 astronomical units away from the Sun.',
+                            'Moons radius is 1,079 miles (1,737).\nThe Moon is an average of 238,855 miles (384,400 kilometers) away.',
                             style: TextStyle(
                               fontSize: 13,
                               fontFamily: 'Montserrat',
                               decoration: TextDecoration.none,
-                              color: Color(0xFFDADADA),
+                              color: Colors.grey[300],
                               height: 1.5,
                             ),
                           ),
@@ -60,6 +65,11 @@ class ThirdCardDesc extends StatelessWidget {
                     ),
                     Container(
                       margin: const EdgeInsets.only(top: 50),
+                      padding: const EdgeInsets.all(20),
+                      decoration: BoxDecoration(
+                        color: Colors.white10,
+                        borderRadius: BorderRadius.circular(5),
+                      ),
                       child: Column(
                         children: <Widget>[
                           Text(
@@ -67,15 +77,15 @@ class ThirdCardDesc extends StatelessWidget {
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                               fontSize: 25,
-                              color: Colors.grey[400],
+                              color: Colors.grey[100],
                             ),
                           ),
                           Text(
-                            'Mars completes one rotation every 24.6 hours, which is very similar to one day on Earth. A year on Mars lasts 669.6 sols.',
+                            'The Moon makes a complete orbit around Earth in 27 Earth days rotates or spins at that same rate.\nThe moon appears to orbit us every 29 days.',
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                               fontSize: 13,
-                              color: Color(0xFFDADADA),
+                              color: Colors.grey[300],
                               height: 1.5,
                             ),
                           ),
@@ -84,6 +94,11 @@ class ThirdCardDesc extends StatelessWidget {
                     ),
                     Container(
                       margin: const EdgeInsets.only(top: 50),
+                      padding: const EdgeInsets.all(20),
+                      decoration: BoxDecoration(
+                        color: Colors.white10,
+                        borderRadius: BorderRadius.circular(5),
+                      ),
                       child: Column(
                         children: <Widget>[
                           Text(
@@ -91,15 +106,15 @@ class ThirdCardDesc extends StatelessWidget {
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                               fontSize: 25,
-                              color: Colors.grey[400],
+                              color: Colors.grey[100],
                             ),
                           ),
                           Text(
-                            'There is water on Mars today. Water on Mars is found in the form of water-ice just under the surface in the polar regions as well as in briny.\nFood will be received through hydroponics.\nEnergy will be generated using solar panels.',
+                            'The Moon could be the site of future colonization by humans. The discovery the Moon harbors water ice, and that the highest concentrations occur within darkened craters at the poles, makes the Moon a little more hospitable for future human colonists.\n\nBut the big problem is moon dust, which changes peoples DNA and overheats various techniques',
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                               fontSize: 13,
-                              color: Color(0xFFDADADA),
+                              color: Colors.grey[300],
                               height: 1.5,
                             ),
                           ),
@@ -122,10 +137,10 @@ class ThirdCardDesc extends StatelessWidget {
                                   offset: Offset(0, 0),
                                 ),
                               ],
+                              color: Colors.amber[900],
                               borderRadius: BorderRadius.circular(360),
                             ),
                             child: FlatButton(
-                              color: Colors.amber[900],
                               onPressed: () {},
                               shape: new RoundedRectangleBorder(
                                   borderRadius:
