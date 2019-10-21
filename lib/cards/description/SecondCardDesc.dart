@@ -125,31 +125,6 @@ class SecondCardDesc extends StatelessWidget {
                               ),
                             ),
                           ),
-                          Container(
-                            width: 50,
-                            height: 50,
-                            decoration: BoxDecoration(
-                              boxShadow: [
-                                BoxShadow(
-                                  blurRadius: 30,
-                                  color: Colors.amber[900],
-                                  offset: Offset(0, 0),
-                                ),
-                              ],
-                              color: Colors.amber[900],
-                              borderRadius: BorderRadius.circular(360),
-                            ),
-                            child: FlatButton(
-                              onPressed: () {},
-                              shape: new RoundedRectangleBorder(
-                                  borderRadius:
-                                      new BorderRadius.circular(30.0)),
-                              child: Icon(
-                                Icons.map,
-                                size: 19,
-                              ),
-                            ),
-                          ),
                         ],
                       ),
                     ),

@@ -184,31 +184,6 @@ class FifthCardDesc extends StatelessWidget {
                               ),
                             ),
                           ),
-                          Container(
-                            width: 50,
-                            height: 50,
-                            decoration: BoxDecoration(
-                              boxShadow: [
-                                BoxShadow(
-                                  blurRadius: 30,
-                                  color: Colors.amber[900],
-                                  offset: Offset(0, 0),
-                                ),
-                              ],
-                              borderRadius: BorderRadius.circular(360),
-                            ),
-                            child: FlatButton(
-                              onPressed: () {},
-                              color: Colors.amber[900],
-                              shape: new RoundedRectangleBorder(
-                                  borderRadius:
-                                      new BorderRadius.circular(30.0)),
-                              child: Icon(
-                                Icons.arrow_forward_ios,
-                                size: 21,
-                              ),
-                            ),
-                          ),
                         ],
                       ),
                     ),
